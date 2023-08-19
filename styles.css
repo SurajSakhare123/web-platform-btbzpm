@@ -1,9 +1,9 @@
-*{
+* {
   margin: 0;
   font-family: Arial;
   border: border-box;
 }
-.navbar{
+.navbar {
   height: 60px;
   background-color: #0f1111;
   color: white;
@@ -15,45 +15,45 @@
   height: 50px;
   width: 100px;
 }
-.logo{
+.logo {
   background-image: url(https://github.com/SurajSakhare123/web-platform-btbzpm/blob/main/reallogoamazon.png?raw=true);
   background-size: cover;
   height: 50px;
   width: 100px;
 }
-.border{
+.border {
   border: 2px solid transparent;
 }
-.border:hover{
+.border:hover {
   border: 1.5px solid white;
 }
 /*box2*/
-.add-first{
+.add-first {
   color: #cccccc;
   font-size: 1rem;
   margin-left: 15px;
 }
-.add-second{
+.add-second {
   font-size: 1rem;
   margin-left: 5px;
 }
-.add-icon{
+.add-icon {
   display: flex;
   align-items: center;
 }
 /*box3*/
-.nav-search{
+.nav-search {
   display: flex;
   justify-content: space-evenly;
   background-color: pink;
   width: 620px;
   height: 40px;
-  border-radius: 5px; 
+  border-radius: 5px;
 }
-.nav-search:hover{
+.nav-search:hover {
   border: 2px solid orange;
 }
-.search-select{
+.search-select {
   background-color: #f3f3f3;
   width: 50;
   text-align: center;
@@ -61,12 +61,12 @@
   border-bottom-left-radius: 5px;
   border: none;
 }
-.search-input{
+.search-input {
   width: 100%;
   font-size: 1rem;
   border: none;
 }
-.search-icon{
+.search-icon {
   width: 45px;
   display: flex;
   justify-content: center;
@@ -78,26 +78,32 @@
   color: #0f1111;
 }
 
+.nav-lang {
+  color: #cccccc;
+  background-color: #0f1111;
+  height: 5vh;
+  width: 5vw;
+
+  text-align: center;
+}
 /*4th box*/
-.nav-signin{
-  
+.nav-signin {
   justify-content: center;
   text-align: left;
 }
-span{
+span {
   font-size: 0.8rem;
 }
-.nav-second{
+.nav-second {
   font-size: 0.85rem;
   font-weight: 700;
 }
 
 /*5th box*/
 .nav-cart i {
-  font-size: 32px;
+  font-size: 35px;
 }
-.nav-cart{
-  display: flex;
+.nav-cart {
   font-size: 0.85rem;
   font-weight: 700;
 }
