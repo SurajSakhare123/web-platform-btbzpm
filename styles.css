@@ -13,16 +13,18 @@
 }
 .nav-logo {
   height: 50px;
-  width: 100px;
+  width: 150px;
 }
 .logo {
-  background-image: url(https://github.com/SurajSakhare123/web-platform-btbzpm/blob/main/reallogoamazon.png?raw=true);
+  background-image: url(https://github.com/SurajSakhare123/web-platform-btbzpm/blob/main/amazon_PNG25.png?raw=true);
   background-size: cover;
+
   height: 50px;
-  width: 100px;
+  width: 150px;
 }
 .border {
   border: 2px solid transparent;
+  padding: 3px;
 }
 .border:hover {
   border: 1.5px solid white;
@@ -54,7 +56,7 @@
   border: 2px solid orange;
 }
 .search-select {
-  background-color: #f3f3f3;
+  background-color: #f3f3f3b7;
   width: 50;
   text-align: center;
   border-top-left-radius: 5px;
