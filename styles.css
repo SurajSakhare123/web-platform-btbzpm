@@ -109,3 +109,61 @@ span {
   font-size: 0.85rem;
   font-weight: 700;
 }
+
+/*Panels =====*/
+.panel{
+  height: 40px;
+  background-color: #222f3d;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-evenly;
+  
+}
+.panel_ops p{
+  margin: 15px;
+  display: inline;
+}
+.panel_ops{
+  width: 70%;
+  font-size: 0.85rem;
+}
+.panel_deals{
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+/**hero_section**/
+.hero-section{
+  background-image: url(https://github.com/SurajSakhare123/web-platform-btbzpm/blob/main/herosection.jpg?raw=true);
+  background-size: cover;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+}
+.hero-msg{
+  background-color: white;
+  color: black;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 97%;
+  margin-top: 200px;
+}
+.hero-msg a{
+  color: skyblue;
+}
+
+/**Shop-section**/
+.shop-section{
+  display: flex;
+  width: 98%;
+  justify-content: space-evenly;
+}
+.box{
+  border: 2px solid black;
+  height: 200px;
+  width: 100vw;
+  margin: 10px;
+}
